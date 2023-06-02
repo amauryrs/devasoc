@@ -1,0 +1,25 @@
+### !!!Backup!!! ###
+!
+term len 0
+show clock
+show version
+show boot
+dir bootflash:
+copy running-config startup-config
+show running-config 
+show startup-config
+!
+
+### Pre-MW ###
+!
+copy running-config startup-config
+checkpoint MW1-DCMIGR-2023-05-18-0001 description Pre-MW
+copy running-config startup-config
+!
+
+### POS-MW ###
+!
+copy running-config startup-config
+checkpoint MW1-DCMIGR-2023-05-18-0002 description POS-MW
+copy running-config startup-config
+!

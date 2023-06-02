@@ -1,0 +1,24 @@
+## !!!Health!!! ##
+
+show clock
+show module
+show inventory
+show environment 
+show environment fan 
+show environment power 
+show environment temperature 
+show diagnostic result module all 
+show processes cpu sort | exclude "0.00% 0.00% 0.00%"
+show processes cpu
+show processes cpu history
+show processes cpu sort
+show processes memory
+show redundancy status
+show system redundancy status
+show system resources
+show system internal processes cpu
+show system internal processes memory
+show policy-map interface control-plane
+show hardware capacity
+show license feature package mapping
+
