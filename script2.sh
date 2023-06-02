@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zbash
 
 echo "Enter username"
 read username
